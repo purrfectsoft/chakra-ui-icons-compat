@@ -41,7 +41,7 @@
     "typescript": "^5.6.3"
   },
   "scripts": {
-    "build": "rm -rf dist && tsc && tsc -p tsconfig.js.json && tsc -p tsconfig.types.json",
+    "build": "rm -rf dist && tsc && tsc -p tsconfig.cjs.json && tsc -p tsconfig.types.json",
     "typecheck": "tsc --noEmit"
   },
   "exports": {
