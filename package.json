@@ -1,0 +1,650 @@
+{
+  "name": "chakra-ui-icons-compat",
+  "version": "3.0.0",
+  "description": "Chakra UI icons for Chakra UI v3",
+  "author": "Arafat Zahan <kuasha420@gmail.com>",
+  "homepage": "https://github.com/purrfectsoft/chakra-ui-icons-compat",
+  "license": "MIT",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types/index.d.ts",
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/purrfectsoft/chakra-ui-icons-compat.git",
+    "directory": "packages/components/icons"
+  },
+  "bugs": {
+    "url": "https://github.com/purrfectsoft/chakra-ui-icons-compat/issues"
+  },
+  "peerDependencies": {
+    "@chakra-ui/react": ">=3.0.0",
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "devDependencies": {
+    "@chakra-ui/react": "^3.1.0",
+    "@emotion/react": "11",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.6.3"
+  },
+  "scripts": {
+    "build": "rm -rf dist && tsc && tsc -p tsconfig.js.json && tsc -p tsconfig.types.json",
+    "typecheck": "tsc --noEmit"
+  },
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/types/index.d.ts",
+        "default": "./dist/esm/index.js"
+      },
+      "require": {
+        "types": "./dist/types/index.d.ts",
+        "default": "./dist/cjs/index.js"
+      }
+    },
+    "./Add": {
+      "import": {
+        "types": "./dist/types/Add.d.ts",
+        "default": "./dist/esm/Add.js"
+      },
+      "require": {
+        "types": "./dist/types/Add.d.ts",
+        "default": "./dist/cjs/Add.js"
+      }
+    },
+    "./ArrowBack": {
+      "import": {
+        "types": "./dist/types/ArrowBack.d.ts",
+        "default": "./dist/esm/ArrowBack.js"
+      },
+      "require": {
+        "types": "./dist/types/ArrowBack.d.ts",
+        "default": "./dist/cjs/ArrowBack.js"
+      }
+    },
+    "./ArrowDown": {
+      "import": {
+        "types": "./dist/types/ArrowDown.d.ts",
+        "default": "./dist/esm/ArrowDown.js"
+      },
+      "require": {
+        "types": "./dist/types/ArrowDown.d.ts",
+        "default": "./dist/cjs/ArrowDown.js"
+      }
+    },
+    "./ArrowForward": {
+      "import": {
+        "types": "./dist/types/ArrowForward.d.ts",
+        "default": "./dist/esm/ArrowForward.js"
+      },
+      "require": {
+        "types": "./dist/types/ArrowForward.d.ts",
+        "default": "./dist/cjs/ArrowForward.js"
+      }
+    },
+    "./ArrowLeft": {
+      "import": {
+        "types": "./dist/types/ArrowLeft.d.ts",
+        "default": "./dist/esm/ArrowLeft.js"
+      },
+      "require": {
+        "types": "./dist/types/ArrowLeft.d.ts",
+        "default": "./dist/cjs/ArrowLeft.js"
+      }
+    },
+    "./ArrowRight": {
+      "import": {
+        "types": "./dist/types/ArrowRight.d.ts",
+        "default": "./dist/esm/ArrowRight.js"
+      },
+      "require": {
+        "types": "./dist/types/ArrowRight.d.ts",
+        "default": "./dist/cjs/ArrowRight.js"
+      }
+    },
+    "./ArrowUp": {
+      "import": {
+        "types": "./dist/types/ArrowUp.d.ts",
+        "default": "./dist/esm/ArrowUp.js"
+      },
+      "require": {
+        "types": "./dist/types/ArrowUp.d.ts",
+        "default": "./dist/cjs/ArrowUp.js"
+      }
+    },
+    "./ArrowUpDown": {
+      "import": {
+        "types": "./dist/types/ArrowUpDown.d.ts",
+        "default": "./dist/esm/ArrowUpDown.js"
+      },
+      "require": {
+        "types": "./dist/types/ArrowUpDown.d.ts",
+        "default": "./dist/cjs/ArrowUpDown.js"
+      }
+    },
+    "./AtSign": {
+      "import": {
+        "types": "./dist/types/AtSign.d.ts",
+        "default": "./dist/esm/AtSign.js"
+      },
+      "require": {
+        "types": "./dist/types/AtSign.d.ts",
+        "default": "./dist/cjs/AtSign.js"
+      }
+    },
+    "./Attachment": {
+      "import": {
+        "types": "./dist/types/Attachment.d.ts",
+        "default": "./dist/esm/Attachment.js"
+      },
+      "require": {
+        "types": "./dist/types/Attachment.d.ts",
+        "default": "./dist/cjs/Attachment.js"
+      }
+    },
+    "./Bell": {
+      "import": {
+        "types": "./dist/types/Bell.d.ts",
+        "default": "./dist/esm/Bell.js"
+      },
+      "require": {
+        "types": "./dist/types/Bell.d.ts",
+        "default": "./dist/cjs/Bell.js"
+      }
+    },
+    "./Calendar": {
+      "import": {
+        "types": "./dist/types/Calendar.d.ts",
+        "default": "./dist/esm/Calendar.js"
+      },
+      "require": {
+        "types": "./dist/types/Calendar.d.ts",
+        "default": "./dist/cjs/Calendar.js"
+      }
+    },
+    "./Chat": {
+      "import": {
+        "types": "./dist/types/Chat.d.ts",
+        "default": "./dist/esm/Chat.js"
+      },
+      "require": {
+        "types": "./dist/types/Chat.d.ts",
+        "default": "./dist/cjs/Chat.js"
+      }
+    },
+    "./Check": {
+      "import": {
+        "types": "./dist/types/Check.d.ts",
+        "default": "./dist/esm/Check.js"
+      },
+      "require": {
+        "types": "./dist/types/Check.d.ts",
+        "default": "./dist/cjs/Check.js"
+      }
+    },
+    "./CheckCircle": {
+      "import": {
+        "types": "./dist/types/CheckCircle.d.ts",
+        "default": "./dist/esm/CheckCircle.js"
+      },
+      "require": {
+        "types": "./dist/types/CheckCircle.d.ts",
+        "default": "./dist/cjs/CheckCircle.js"
+      }
+    },
+    "./ChevronDown": {
+      "import": {
+        "types": "./dist/types/ChevronDown.d.ts",
+        "default": "./dist/esm/ChevronDown.js"
+      },
+      "require": {
+        "types": "./dist/types/ChevronDown.d.ts",
+        "default": "./dist/cjs/ChevronDown.js"
+      }
+    },
+    "./ChevronLeft": {
+      "import": {
+        "types": "./dist/types/ChevronLeft.d.ts",
+        "default": "./dist/esm/ChevronLeft.js"
+      },
+      "require": {
+        "types": "./dist/types/ChevronLeft.d.ts",
+        "default": "./dist/cjs/ChevronLeft.js"
+      }
+    },
+    "./ChevronRight": {
+      "import": {
+        "types": "./dist/types/ChevronRight.d.ts",
+        "default": "./dist/esm/ChevronRight.js"
+      },
+      "require": {
+        "types": "./dist/types/ChevronRight.d.ts",
+        "default": "./dist/cjs/ChevronRight.js"
+      }
+    },
+    "./ChevronUp": {
+      "import": {
+        "types": "./dist/types/ChevronUp.d.ts",
+        "default": "./dist/esm/ChevronUp.js"
+      },
+      "require": {
+        "types": "./dist/types/ChevronUp.d.ts",
+        "default": "./dist/cjs/ChevronUp.js"
+      }
+    },
+    "./Close": {
+      "import": {
+        "types": "./dist/types/Close.d.ts",
+        "default": "./dist/esm/Close.js"
+      },
+      "require": {
+        "types": "./dist/types/Close.d.ts",
+        "default": "./dist/cjs/Close.js"
+      }
+    },
+    "./Copy": {
+      "import": {
+        "types": "./dist/types/Copy.d.ts",
+        "default": "./dist/esm/Copy.js"
+      },
+      "require": {
+        "types": "./dist/types/Copy.d.ts",
+        "default": "./dist/cjs/Copy.js"
+      }
+    },
+    "./Delete": {
+      "import": {
+        "types": "./dist/types/Delete.d.ts",
+        "default": "./dist/esm/Delete.js"
+      },
+      "require": {
+        "types": "./dist/types/Delete.d.ts",
+        "default": "./dist/cjs/Delete.js"
+      }
+    },
+    "./Download": {
+      "import": {
+        "types": "./dist/types/Download.d.ts",
+        "default": "./dist/esm/Download.js"
+      },
+      "require": {
+        "types": "./dist/types/Download.d.ts",
+        "default": "./dist/cjs/Download.js"
+      }
+    },
+    "./DragHandle": {
+      "import": {
+        "types": "./dist/types/DragHandle.d.ts",
+        "default": "./dist/esm/DragHandle.js"
+      },
+      "require": {
+        "types": "./dist/types/DragHandle.d.ts",
+        "default": "./dist/cjs/DragHandle.js"
+      }
+    },
+    "./Edit": {
+      "import": {
+        "types": "./dist/types/Edit.d.ts",
+        "default": "./dist/esm/Edit.js"
+      },
+      "require": {
+        "types": "./dist/types/Edit.d.ts",
+        "default": "./dist/cjs/Edit.js"
+      }
+    },
+    "./Email": {
+      "import": {
+        "types": "./dist/types/Email.d.ts",
+        "default": "./dist/esm/Email.js"
+      },
+      "require": {
+        "types": "./dist/types/Email.d.ts",
+        "default": "./dist/cjs/Email.js"
+      }
+    },
+    "./ExternalLink": {
+      "import": {
+        "types": "./dist/types/ExternalLink.d.ts",
+        "default": "./dist/esm/ExternalLink.js"
+      },
+      "require": {
+        "types": "./dist/types/ExternalLink.d.ts",
+        "default": "./dist/cjs/ExternalLink.js"
+      }
+    },
+    "./Hamburger": {
+      "import": {
+        "types": "./dist/types/Hamburger.d.ts",
+        "default": "./dist/esm/Hamburger.js"
+      },
+      "require": {
+        "types": "./dist/types/Hamburger.d.ts",
+        "default": "./dist/cjs/Hamburger.js"
+      }
+    },
+    "./Info": {
+      "import": {
+        "types": "./dist/types/Info.d.ts",
+        "default": "./dist/esm/Info.js"
+      },
+      "require": {
+        "types": "./dist/types/Info.d.ts",
+        "default": "./dist/cjs/Info.js"
+      }
+    },
+    "./InfoOutline": {
+      "import": {
+        "types": "./dist/types/InfoOutline.d.ts",
+        "default": "./dist/esm/InfoOutline.js"
+      },
+      "require": {
+        "types": "./dist/types/InfoOutline.d.ts",
+        "default": "./dist/cjs/InfoOutline.js"
+      }
+    },
+    "./Link": {
+      "import": {
+        "types": "./dist/types/Link.d.ts",
+        "default": "./dist/esm/Link.js"
+      },
+      "require": {
+        "types": "./dist/types/Link.d.ts",
+        "default": "./dist/cjs/Link.js"
+      }
+    },
+    "./Lock": {
+      "import": {
+        "types": "./dist/types/Lock.d.ts",
+        "default": "./dist/esm/Lock.js"
+      },
+      "require": {
+        "types": "./dist/types/Lock.d.ts",
+        "default": "./dist/cjs/Lock.js"
+      }
+    },
+    "./Minus": {
+      "import": {
+        "types": "./dist/types/Minus.d.ts",
+        "default": "./dist/esm/Minus.js"
+      },
+      "require": {
+        "types": "./dist/types/Minus.d.ts",
+        "default": "./dist/cjs/Minus.js"
+      }
+    },
+    "./Moon": {
+      "import": {
+        "types": "./dist/types/Moon.d.ts",
+        "default": "./dist/esm/Moon.js"
+      },
+      "require": {
+        "types": "./dist/types/Moon.d.ts",
+        "default": "./dist/cjs/Moon.js"
+      }
+    },
+    "./NotAllowed": {
+      "import": {
+        "types": "./dist/types/NotAllowed.d.ts",
+        "default": "./dist/esm/NotAllowed.js"
+      },
+      "require": {
+        "types": "./dist/types/NotAllowed.d.ts",
+        "default": "./dist/cjs/NotAllowed.js"
+      }
+    },
+    "./Phone": {
+      "import": {
+        "types": "./dist/types/Phone.d.ts",
+        "default": "./dist/esm/Phone.js"
+      },
+      "require": {
+        "types": "./dist/types/Phone.d.ts",
+        "default": "./dist/cjs/Phone.js"
+      }
+    },
+    "./PlusSquare": {
+      "import": {
+        "types": "./dist/types/PlusSquare.d.ts",
+        "default": "./dist/esm/PlusSquare.js"
+      },
+      "require": {
+        "types": "./dist/types/PlusSquare.d.ts",
+        "default": "./dist/cjs/PlusSquare.js"
+      }
+    },
+    "./Question": {
+      "import": {
+        "types": "./dist/types/Question.d.ts",
+        "default": "./dist/esm/Question.js"
+      },
+      "require": {
+        "types": "./dist/types/Question.d.ts",
+        "default": "./dist/cjs/Question.js"
+      }
+    },
+    "./QuestionOutline": {
+      "import": {
+        "types": "./dist/types/QuestionOutline.d.ts",
+        "default": "./dist/esm/QuestionOutline.js"
+      },
+      "require": {
+        "types": "./dist/types/QuestionOutline.d.ts",
+        "default": "./dist/cjs/QuestionOutline.js"
+      }
+    },
+    "./React": {
+      "import": {
+        "types": "./dist/types/React.d.ts",
+        "default": "./dist/esm/React.js"
+      },
+      "require": {
+        "types": "./dist/types/React.d.ts",
+        "default": "./dist/cjs/React.js"
+      }
+    },
+    "./Repeat": {
+      "import": {
+        "types": "./dist/types/Repeat.d.ts",
+        "default": "./dist/esm/Repeat.js"
+      },
+      "require": {
+        "types": "./dist/types/Repeat.d.ts",
+        "default": "./dist/cjs/Repeat.js"
+      }
+    },
+    "./RepeatClock": {
+      "import": {
+        "types": "./dist/types/RepeatClock.d.ts",
+        "default": "./dist/esm/RepeatClock.js"
+      },
+      "require": {
+        "types": "./dist/types/RepeatClock.d.ts",
+        "default": "./dist/cjs/RepeatClock.js"
+      }
+    },
+    "./Search": {
+      "import": {
+        "types": "./dist/types/Search.d.ts",
+        "default": "./dist/esm/Search.js"
+      },
+      "require": {
+        "types": "./dist/types/Search.d.ts",
+        "default": "./dist/cjs/Search.js"
+      }
+    },
+    "./Search2": {
+      "import": {
+        "types": "./dist/types/Search2.d.ts",
+        "default": "./dist/esm/Search2.js"
+      },
+      "require": {
+        "types": "./dist/types/Search2.d.ts",
+        "default": "./dist/cjs/Search2.js"
+      }
+    },
+    "./Settings": {
+      "import": {
+        "types": "./dist/types/Settings.d.ts",
+        "default": "./dist/esm/Settings.js"
+      },
+      "require": {
+        "types": "./dist/types/Settings.d.ts",
+        "default": "./dist/cjs/Settings.js"
+      }
+    },
+    "./SmallAdd": {
+      "import": {
+        "types": "./dist/types/SmallAdd.d.ts",
+        "default": "./dist/esm/SmallAdd.js"
+      },
+      "require": {
+        "types": "./dist/types/SmallAdd.d.ts",
+        "default": "./dist/cjs/SmallAdd.js"
+      }
+    },
+    "./SmallClose": {
+      "import": {
+        "types": "./dist/types/SmallClose.d.ts",
+        "default": "./dist/esm/SmallClose.js"
+      },
+      "require": {
+        "types": "./dist/types/SmallClose.d.ts",
+        "default": "./dist/cjs/SmallClose.js"
+      }
+    },
+    "./Spinner": {
+      "import": {
+        "types": "./dist/types/Spinner.d.ts",
+        "default": "./dist/esm/Spinner.js"
+      },
+      "require": {
+        "types": "./dist/types/Spinner.d.ts",
+        "default": "./dist/cjs/Spinner.js"
+      }
+    },
+    "./Star": {
+      "import": {
+        "types": "./dist/types/Star.d.ts",
+        "default": "./dist/esm/Star.js"
+      },
+      "require": {
+        "types": "./dist/types/Star.d.ts",
+        "default": "./dist/cjs/Star.js"
+      }
+    },
+    "./Sun": {
+      "import": {
+        "types": "./dist/types/Sun.d.ts",
+        "default": "./dist/esm/Sun.js"
+      },
+      "require": {
+        "types": "./dist/types/Sun.d.ts",
+        "default": "./dist/cjs/Sun.js"
+      }
+    },
+    "./Time": {
+      "import": {
+        "types": "./dist/types/Time.d.ts",
+        "default": "./dist/esm/Time.js"
+      },
+      "require": {
+        "types": "./dist/types/Time.d.ts",
+        "default": "./dist/cjs/Time.js"
+      }
+    },
+    "./TriangleDown": {
+      "import": {
+        "types": "./dist/types/TriangleDown.d.ts",
+        "default": "./dist/esm/TriangleDown.js"
+      },
+      "require": {
+        "types": "./dist/types/TriangleDown.d.ts",
+        "default": "./dist/cjs/TriangleDown.js"
+      }
+    },
+    "./TriangleUp": {
+      "import": {
+        "types": "./dist/types/TriangleUp.d.ts",
+        "default": "./dist/esm/TriangleUp.js"
+      },
+      "require": {
+        "types": "./dist/types/TriangleUp.d.ts",
+        "default": "./dist/cjs/TriangleUp.js"
+      }
+    },
+    "./Unlock": {
+      "import": {
+        "types": "./dist/types/Unlock.d.ts",
+        "default": "./dist/esm/Unlock.js"
+      },
+      "require": {
+        "types": "./dist/types/Unlock.d.ts",
+        "default": "./dist/cjs/Unlock.js"
+      }
+    },
+    "./UpDown": {
+      "import": {
+        "types": "./dist/types/UpDown.d.ts",
+        "default": "./dist/esm/UpDown.js"
+      },
+      "require": {
+        "types": "./dist/types/UpDown.d.ts",
+        "default": "./dist/cjs/UpDown.js"
+      }
+    },
+    "./View": {
+      "import": {
+        "types": "./dist/types/View.d.ts",
+        "default": "./dist/esm/View.js"
+      },
+      "require": {
+        "types": "./dist/types/View.d.ts",
+        "default": "./dist/cjs/View.js"
+      }
+    },
+    "./ViewOff": {
+      "import": {
+        "types": "./dist/types/ViewOff.d.ts",
+        "default": "./dist/esm/ViewOff.js"
+      },
+      "require": {
+        "types": "./dist/types/ViewOff.d.ts",
+        "default": "./dist/cjs/ViewOff.js"
+      }
+    },
+    "./Warning": {
+      "import": {
+        "types": "./dist/types/Warning.d.ts",
+        "default": "./dist/esm/Warning.js"
+      },
+      "require": {
+        "types": "./dist/types/Warning.d.ts",
+        "default": "./dist/cjs/Warning.js"
+      }
+    },
+    "./WarningTwo": {
+      "import": {
+        "types": "./dist/types/WarningTwo.d.ts",
+        "default": "./dist/esm/WarningTwo.js"
+      },
+      "require": {
+        "types": "./dist/types/WarningTwo.d.ts",
+        "default": "./dist/cjs/WarningTwo.js"
+      }
+    },
+    "./package.json": "./package.json"
+  }
+}
